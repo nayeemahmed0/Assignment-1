@@ -96,4 +96,34 @@ nav{
   .action-img{
     border-radius: 48px;
   }
-    
+    /* productive section */
+    .user-section{
+    background-color: rgba(78, 71, 255, 0.1);
+    margin: 0px 150px;
+    border-radius: 10px;
+    margin-bottom: 0px;
+    padding: 50px 110px;
+    margin-top: 90px;
+}
+.user-title{
+    font-size: 34px;
+    font-weight: bold;
+    text-align: center;
+}
+.item-container {
+    display: flex;
+    justify-content: space-around;
+}
+.item-title{
+    color: #4E47FF;
+    font-size: 80px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.item-description{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 0px;
+}
