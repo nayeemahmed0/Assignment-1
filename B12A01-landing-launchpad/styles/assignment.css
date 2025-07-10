@@ -47,13 +47,14 @@ nav{
     
  font-size: 36px;
  color: #4E47FF;
+ 
 }
-h3{
+.nav-logo{
   font-family:'Inter', sans-serif;
   font-weight: bold
-  font-size: 20px;
+  font-size: 20px;}
   
-}
+
 /* bannner style */
 .content-title{
   font-family: 'Raleway', sans-serif;. 
@@ -72,3 +73,27 @@ h3{
 .banner{
   text-align: center;
 }
+/* action style */
+.action-section{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    padding: 100px 200px;
+    
+}
+.action-title{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+}
+.action-sub-title{
+    color: #252432;
+    font-size: 24px;
+}
+
+     
+  
+  .action-img{
+    border-radius: 48px;
+  }
+    
