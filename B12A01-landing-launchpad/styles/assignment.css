@@ -100,10 +100,13 @@ nav{
     .user-section{
     background-color: rgba(78, 71, 255, 0.1);
     margin: 0px 150px;
-    border-radius: 10px;
-    margin-bottom: 0px;
-    padding: 50px 110px;
+    border-radius: 48px;
+    margin-bottom: 90px;
+    padding: 80px 50px;
     margin-top: 90px;
+    
+    
+    
 }
 .user-title{
     font-size: 34px;
@@ -118,8 +121,10 @@ nav{
     color: #4E47FF;
     font-size: 80px;
     font-weight: bold;
-    margin-bottom: 0px;
     margin-top: 0px;
+    margin-bottom: 0px;
+    
+    
 }
 .item-description{
     font-size: 20px;
