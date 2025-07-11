@@ -95,6 +95,7 @@ nav{
   
   .action-img{
     border-radius: 48px;
+    display: flex;
   }
     /* productive section */
     .user-section{
