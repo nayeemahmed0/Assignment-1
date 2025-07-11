@@ -136,3 +136,105 @@ nav{
     text-align: center;
     margin-top: 0px;
 }
+
+
+
+/* feedback section */
+.feedback-section{
+  height: 50vh;
+  
+}
+.feedback-section-title{
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    margin-top: 100px;
+    text-align: center;
+    
+}
+.feedback-containaer{
+    display: flex;
+    gap: 20px;
+    padding: 10px 160px;
+}
+.feedback-iteam{
+    border-radius: 14px;
+   
+    box-shadow: 5px 0px 50px rgba(161, 159, 159, 0.121);
+    padding: 20px;
+}
+.feedback-icon{
+    display: flex;
+}
+.feedback-title{
+    font-size: 18px;
+    font-weight: bold;
+}
+.description{
+    color: #252432;
+}
+.profile{
+    border-radius: 100px;
+    height: 40px;
+    width: 40px;
+}
+.customar-profile{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.feedback-iteam-tilte{
+    font-size: 14px;
+    margin: 0px;
+    color: #252432;
+}
+.feedback-subtitle{
+    font-size: 12px;
+    margin-top: 0px;
+    font-family: 'Regular', sans-serif;
+}
+
+
+/* touch section */
+.touch-section{
+    display: flex;
+    gap: 100px;
+    padding: 50px 150px;
+    align-items: center;
+    margin-top: 50px;
+    justify-content: space-between;
+    height: 50vh;
+}
+.touch-containar{
+    width: 50%;
+}
+.touch-title{
+    font-size: 90px;
+    font-weight: bold;
+}
+.label-title{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-family: 'Regular', sans-serif;
+    gap: 10px;
+}
+.touch-section input[type="email"],.touch-section input[type="text"]{
+    background-color: white;
+    padding: 20px;
+    height: 10px;
+    border: none;
+    border-radius: 10px;
+    width: 80%;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.touch-section textarea{
+    background-color: white;
+    padding: 20px 30px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    width: 75%;
+}
