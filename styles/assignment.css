@@ -1,0 +1,273 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  background-color: #f5f8ff;;
+}
+
+.raleway-normal{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+}
+
+
+
+
+/* shared style */
+.text-primary{
+  
+}
+.btn-primary{
+  background-color: #4E47FF;
+  color: #FFFFFF;
+  font-weight: bold;
+  padding: 12px 36px;
+  border-radius: 10px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  border: none;
+
+}
+.btn-primary:hover{
+    background-color: bisque;
+    color: #252432;
+    border: 2px solid #4E47FF;
+    box-shadow: tomato;
+    border-radius: 5px;
+}
+/* nav style */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+.nav-title{
+    
+ font-size: 36px;
+ color: #4E47FF;
+ 
+}
+.nav-logo{
+  font-family:'Inter', sans-serif;
+  font-weight: bold
+  font-size: 20px;}
+  
+
+/* bannner style */
+.content-title{
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 65px;
+  font-style: normal;
+  
+}
+.background-image{
+  background-image: url("../images/hero-bg.png");
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  height: 80vh;
+}
+.banner{
+  text-align: center;
+}
+/* action style */
+.action-section{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    padding: 100px 200px;
+    
+}
+.action-title{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+}
+.action-sub-title{
+    color: #252432;
+    font-size: 24px;
+}
+
+     
+  
+  .action-img{
+    border-radius: 48px;
+    display: flex;
+  }
+    /* productive section */
+    .user-section{
+    background-color: rgba(78, 71, 255, 0.1);
+    margin: 0px 150px;
+    border-radius: 48px;
+    margin-bottom: 90px;
+    padding: 80px 50px;
+    margin-top: 90px;
+  
+    
+    
+    
+}
+.user-title{
+    font-size: 34px;
+    font-weight: bold;
+    text-align: center;
+}
+.item-container {
+    display: flex;
+    justify-content: space-around;
+    
+}
+.item-title{
+    color: #4E47FF;
+    font-size: 80px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family:  'Regular', sans-serif;
+
+    
+    
+}
+.item-description{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 0px;
+}
+
+
+
+/* feedback section */
+.feedback-section{
+  height: 50vh;
+  
+}
+.feedback-section-title{
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    margin-top: 100px;
+    text-align: center;
+    
+}
+.feedback-containaer{
+    display: flex;
+    gap: 20px;
+    padding: 10px 160px;
+}
+.feedback-iteam{
+    border-radius: 14px;
+   
+    box-shadow: 5px 0px 50px rgba(161, 159, 159, 0.121);
+    padding: 20px;
+}
+.feedback-icon{
+    display: flex;
+}
+.feedback-title{
+    font-size: 18px;
+    font-weight: bold;
+}
+.description{
+    color: #252432;
+}
+.profile{
+    border-radius: 100px;
+    height: 40px;
+    width: 40px;
+}
+.customar-profile{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.feedback-iteam-tilte{
+    font-size: 14px;
+    margin: 0px;
+    color: #252432;
+}
+.feedback-subtitle{
+    font-size: 12px;
+    margin-top: 0px;
+    font-family: 'Regular', sans-serif;
+}
+
+
+/* touch section */
+.touch-section{
+    display: flex;
+    gap: 100px;
+    padding: 50px 150px;
+    align-items: center;
+    margin-top: 50px;
+    justify-content: space-between;
+    height: 50vh;
+}
+.touch-containar{
+    width: 50%;
+}
+.touch-title{
+    font-size: 90px;
+    font-weight: bold;
+}
+.label-title{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-family: 'Regular', sans-serif;
+    gap: 10px;
+}
+.touch-section input[type="email"],.touch-section input[type="text"]{
+    background-color: white;
+    padding: 20px;
+    height: 10px;
+    border: none;
+    border-radius: 10px;
+    width: 80%;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.touch-section textarea{
+    background-color: white;
+    padding: 20px 30px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    width: 75%;
+}
+/* footer style */
+footer{
+    background-color: white;
+    height: 350px;
+}
+.footer-logo{
+    font-size: 100px;
+    
+    color: #4E47FF;
+    margin-bottom: 10px;
+    padding-top: 70px;
+    text-align: center;
+    font-family:'Inter', sans-serif;
+}
+.footer-description{
+    margin: 0px 370px;
+    text-align: center;
+}
+
+
+.footer-container{
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    margin: 30px 370px 20px 370px;
+    text-align: center;
+    height: 50px;
+}
+.footer-container a{
+    text-decoration: none;
+    color: #252432;
+}
